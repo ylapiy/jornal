@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Jacquard+24&family=Jersey+20&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+
+background: wheat;
+font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+
+h1{
+
+background-color: wheat;    
+text-align: center;
+font-size: 50px;
+width: 100%;
+padding: 0;
+margin: 0;
+margin-top: 30px;
+font-family: "Tinos", serif;
+font-style: bold;
+
+
+}
+
+
+
+
+
+h2{
+border-top: 5px solid black;
+border-radius: 5px;
+border-bottom: 5px solid black;    
+text-align: center;
+width: 97%;
+padding:10px;
+margin-bottom: 10px;
+margin-top: 10px;
+font-family: "Tinos", serif;
+font-style: bold;
+
+
+}
+
+a{
+
+color: black;
+
+}
+
+
+.barralateral{
+
+height: 100vh;
+width: 350px;
+
+padding-top: 0px;
+position: fixed;
+top: 0px;
+right: 0px;
+overflow-x: show;
+overflow-y: scroll
+
+}
+
+figcaption{
+
+text-align: center;
+
+
+}
+
+
+
+blockquote{
+
+font-size: 20px;
+column-span: all;
+margin: 0px;
+margin-top: 30px;
+margin-bottom: 30px;
+border: 0px;
+text-align: center;
+font-style: italic;
+
+
+}
+
+
+ul{
+
+list-style-type: none;
+
+
+
+}
+
+
+
+.peixe{
+
+background-image: url(peixe_luz.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: scroll;
+border-radius: 10px;
+
+}
+
+.pele{
+
+  background-image: url(pele_img.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  border-radius: 10px;
+    
+
+
+}
+
+.bateria{
+
+background-image: url(bateria_img.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: scroll;
+border-radius: 10px;
+
+
+
+
+}
+
+@media(min-width: 1080px){
+    
+
+article {
+      
+    column-count: 3;
+    column-rule: 2px solid #333333;
+    column-gap: 42px;
+    margin-top: 36px;
+    height: 100%;
+
+}
+
+p {
+    text-align: justify;
+    hyphens: auto;
+    
+  }
+
+  h3{
+
+    border-radius: 5px;
+    
+   
+    width: 97%;
+    padding:10px;
+
+    margin-top: 10px;
+    column-span: none;
+
+
+
+  }
+
+
+}
+    
